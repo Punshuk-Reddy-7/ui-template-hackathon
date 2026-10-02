@@ -8,6 +8,9 @@
 ### Submission Type
 Individual Project
 
+### Member
+Punshuk-Reddy-7
+
 ---
 
 ## 1. About the UI Pattern
