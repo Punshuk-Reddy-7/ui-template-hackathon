@@ -3,12 +3,15 @@
 ## UI Template Collection Hackathon
 
 ### Topic
+
 **AI Chat Sidebar**
 
 ### Submission Type
+
 Individual Project
 
 ### Member
+
 Punshuk-Reddy-7
 
 ---
@@ -82,13 +85,15 @@ The implementation focuses on creating a polished AI chat experience using front
 
 ## 6. Project Structure
 
-```text
-ui-template-hackathon/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+The project contains the following files:
+
+- `index.html` — Main webpage structure
+- `style.css` — Styling and responsive design
+- `script.js` — Chat interactions and functionality
+- `README.md` — Project documentation
+- `desktop.png` — Desktop UI screenshot
+- `mobile.png` — Mobile UI screenshot
+
 ---
 
 ## 7. How to Run
@@ -96,8 +101,7 @@ ui-template-hackathon/
 1. Clone or download the repository.
 2. Open the project folder.
 3. Open `index.html` in a modern web browser.
-
-The project can also be run using VS Code Live Server.
+4. The project can also be run using VS Code Live Server.
 
 ---
 
