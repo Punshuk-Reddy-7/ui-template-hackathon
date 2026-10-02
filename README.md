@@ -89,3 +89,45 @@ ui-template-hackathon/
 ├── style.css
 ├── script.js
 └── README.md
+---
+
+## 7. How to Run
+
+1. Clone or download the repository.
+2. Open the project folder.
+3. Open `index.html` in a modern web browser.
+
+The project can also be run using VS Code Live Server.
+
+---
+
+## 8. Responsive Design
+
+The interface is designed to work across different screen sizes.
+
+On smaller screens:
+
+- The sidebar becomes a mobile menu.
+- Conversation suggestions stack vertically.
+- The chat composer adapts to the available width.
+- The main content remains usable.
+
+---
+
+## 9. Screenshots
+
+### Desktop View
+
+![Nova AI Desktop View](desktop.png)
+
+### Mobile View
+
+![Nova AI Mobile View](mobile.png)
+
+---
+
+## 10. What This Implementation Adds
+
+The template combines an AI conversation workspace with a searchable conversation sidebar, suggested prompts, responsive navigation, and lightweight interaction features.
+
+The goal is to provide a clean and modern AI interface that can serve as a reusable UI template for future web applications.
