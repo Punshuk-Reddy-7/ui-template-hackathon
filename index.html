@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova AI — Chat Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-icon">✦</div>
+                <div>
+                    <h2>Nova AI</h2>
+                    <span>AI Workspace</span>
+                </div>
+            </div>
+
+            <button class="new-chat" id="newChatBtn">
+                <span>＋</span>
+                New conversation
+            </button>
+
+            <div class="search-box">
+                <span>⌕</span>
+                <input type="text" id="searchInput" placeholder="Search chats">
+            </div>
+
+            <div class="chat-section">
+                <p class="section-title">Recent</p>
+
+                <button class="chat-item active">
+                    <span class="chat-icon">✦</span>
+                    Design a landing page
+                </button>
+
+                <button class="chat-item">
+                    <span class="chat-icon">✦</span>
+                    Explain machine learning
+                </button>
+
+                <button class="chat-item">
+                    <span class="chat-icon">✦</span>
+                    Weekend trip ideas
+                </button>
+
+                <button class="chat-item">
+                    <span class="chat-icon">✦</span>
+                    Write a product brief
+                </button>
+            </div>
+
+            <div class="sidebar-bottom">
+                <button class="sidebar-link">
+                    <span>⚙</span>
+                    Settings
+                </button>
+
+                <div class="profile">
+                    <div class="avatar">S</div>
+                    <div>
+                        <strong>Sam</strong>
+                        <span>Personal workspace</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat -->
+        <main class="chat-area">
+
+            <header class="topbar">
+                <button class="mobile-menu" id="menuBtn">☰</button>
+
+                <div class="model-info">
+                    <div class="status-dot"></div>
+                    <div>
+                        <strong>Nova AI</strong>
+                        <span>Online · Smart assistant</span>
+                    </div>
+                </div>
+
+                <button class="more-btn">•••</button>
+            </header>
+
+            <section class="chat-content" id="chatContent">
+
+                <div class="welcome">
+                    <div class="welcome-icon">✦</div>
+                    <p class="eyebrow">YOUR AI WORKSPACE</p>
+                    <h1>What can I help you<br><span>create today?</span></h1>
+                    <p class="welcome-text">
+                        Ask questions, explore ideas, or turn your thoughts
+                        into something remarkable.
+                    </p>
+                </div>
+
+                <div class="suggestions">
+                    <button class="suggestion">💡 Brainstorm an idea</button>
+                    <button class="suggestion">📝 Improve my writing</button>
+                    <button class="suggestion">💻 Help me code</button>
+                    <button class="suggestion">📊 Analyze some data</button>
+                </div>
+
+                <div class="messages" id="messages"></div>
+
+            </section>
+
+            <div class="composer-wrapper">
+                <div class="composer">
+                    <textarea
+                        id="messageInput"
+                        rows="1"
+                        placeholder="Message Nova AI..."
+                    ></textarea>
+
+                    <div class="composer-actions">
+                        <button class="attach-btn">＋</button>
+                        <button class="send-btn" id="sendBtn">↑</button>
+                    </div>
+                </div>
+
+                <p class="disclaimer">
+                    Nova AI can make mistakes. Check important information.
+                </p>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
